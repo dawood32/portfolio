@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="StyleSheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/b1e2de6bf4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <!-- <img src="images/logo.png" class="logo"/> -->
+             <h1 class="logo">Dawood Zia</h1>
+            <ul>
+                <li><a href="#header" class="">Home</a></li>
+                <li><a href="#about" class="">About</a></li>
+                <li><a href="#services" class="">Services</a></li>
+                <li><a href="#portfolio" class="">Portfolio</a></li>
+                <li><a href="#contact" class="">Contact</a></li>
+
+            </ul>
+            <!-- <i class="fa-solid fa-bars"></i> -->
+        </nav>
+        <div class="header-text">
+            <p>Mobile App Developer</p>
+            <h1>Dawood Zia</h1>
+        </div>
+        </div>
+    </div>
+     <!-- header-section -->
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dawood4.png"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                <p>Skilled React Native developer adept at crafting cross-platform solutions for optimal performance on iOS and Android. Proficient in integrating libraries, APIs, and third-party services. Well-versed in Redux for streamlined data flow and Firebase for robust user authentication and real-time database integration</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onClick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onClick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>React Native</span><br>Figma Design
+                                <br>React <br>Redux <br> Firebase <br> Push Notification <br> Soket.io <br> Android Studio <br> Xcode <br> Postman <br> Git <br> Figma <br> Clickup
+
+
+
+                            <!-- </li>
+                            <li>
+                                <span>Web DEvelopment</span><br>Figma Design
+                            </li>
+                            <li>
+                                <span>Android /Ios</span><br>Figma Design
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Gtech Sources, Lahore,Pakistan — React Native Developer</span><br>
+                                <br>
+                                ● Developed cross-platform mobile applications using React Native,
+ specializing in Firebase, S3 bucket integration, and diverse login
+ scenarios for over two applications.<br>
+ ● Integrated third-party services, APIs, and libraries for optimal<br>
+ ● Collaborated on seamless user experiences, implemented responsive
+ interfaces, and conducted rigorous testing for optimal performance.<br>
+ ● Managed and led a team in handling diverse scenarios, ensuring efficient
+ project delivery.
+                                <!-- <br>Digital Innovation, Lahore,Pakistan — React Native Developer -->
+                            </li>
+                            <!-- <li>
+                                <span>Web DEvelopment</span><br>Figma Design
+                            </li>
+                            <li>
+                                <span>Android /Ios</span><br>Figma Design
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>University of Engineering and Technology Lahore</span><br>B.Sc Electrical Engineering
+                            </li>
+                            <!-- <li>
+                                <span>Web DEvelopment</span><br>Figma Design
+                            </li>
+                            <li>
+                                <span>Android /Ios</span><br>Figma Design
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>Custom App Development</h2>
+                <p>I specialize in building high-performance, scalable, and cross-platform mobile applications using React Native. Whether you need an MVP for your startup or a full-fledged mobile app, I ensure seamless UI/UX, smooth functionality, and integration with third-party services. My expertise covers everything from authentication and API integration to state management and performance optimization.</p>
+             <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+
+                <h2>Ui Design</h2>
+             <!-- <a href="#">Learn More</a> -->
+              <p>Have a Figma design and need it transformed into a fully functional mobile app? I bring your UI/UX designs to life with pixel-perfect implementation. I ensure responsiveness across all devices, optimize performance, and integrate the necessary logic to make your app interactive and user-friendly. My goal is to match the design exactly while maintaining clean and maintainable code.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+
+                <h2>App Performance Optimization</h2>
+                <P>A well-performing app is key to user satisfaction. I provide ongoing support, bug fixes, and performance optimization to keep your React Native app running smoothly. Whether it's reducing load time, fixing crashes, or enhancing UI responsiveness, I ensure your app stays up-to-date and efficient with the latest best practices.</P>
+             <!-- <a href="#">Learn More</a> -->
+            </div>
+            </div>
+        </div>
+      </div>
+<!-- --------------------------portfolio--------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>DealersHive — E-commerce App</h3>
+                    <!-- <p>Integrated firebase authentication for Google sign-in.</p>
+                    <p> Deployed deep linking functionality to facilitate product sharing.</p>
+                    <p>Developed Chat module integrating audio, video, and geo location.</p> -->
+                    <!-- <a href=""><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>SearchAVet — Veterinary Appointment Booking Platform</h3>
+                    <!-- <p>Implemented Stripe as a payment method.</p> -->
+                    <!-- <a href=""><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>DVMCentral  — E-commerce App</h3>
+                    <!-- <p>Integrated firebase authentication for Google sign-in.</p>
+                    <p> Deployed deep linking functionality to facilitate product sharing.</p>
+                    <p>Developed Chat module integrating audio, video, and geo location.</p> -->
+                    <!-- <a href=""><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dawoodzia711@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>923023269189</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/dawoodzia"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/DawoodziaResume5.pdf" download class="btn">Download CV</a>
+            </div>
+            <!-- <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Enter your Message"></textarea>
+<button type="submit" class="btn">Submitt</button>
+
+                </form>
+            </div> -->
+        </div>
+    </div>
+ </div>
+ <div class="copyright">
+    <p>Copyright</p>
+ </div>
+      <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove('active-link')
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove('active-tab')
+}
+event.currentTarget.classList.add('active-link')
+document.getElementById(tabname).classList.add('active-tab')
+}
+      </script>
+</body>
+</html>
